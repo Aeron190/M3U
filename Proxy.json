@@ -1,1 +1,61 @@
-
+{
+    "version": "1.0",
+    "lastUpdate": "2026-04-23",
+    "description": "Çalışan CORS Proxy listesi - M3U TV Player için",
+    "proxies": [
+        {
+            "name": "All Origins",
+            "url": "https://api.allorigins.win/raw?url=",
+            "type": "cors",
+            "working": true,
+            "priority": 1
+        },
+        {
+            "name": "Codetabs",
+            "url": "https://api.codetabs.com/v1/proxy?quest=",
+            "type": "cors",
+            "working": true,
+            "priority": 2
+        },
+        {
+            "name": "CORS Proxy",
+            "url": "https://corsproxy.io/?",
+            "type": "cors",
+            "working": true,
+            "priority": 3
+        },
+        {
+            "name": "Everything Worker",
+            "url": "https://everything.whatever.workers.dev/?url=",
+            "type": "cors",
+            "working": true,
+            "priority": 4
+        },
+        {
+            "name": "Rage CORS",
+            "url": "https://cors.rage.lol/?url=",
+            "type": "cors",
+            "working": true,
+            "priority": 5
+        },
+        {
+            "name": "CORS Anywhere",
+            "url": "https://cors-anywhere.herokuapp.com/",
+            "type": "cors",
+            "working": false,
+            "priority": 6
+        },
+        {
+            "name": "Proxy King",
+            "url": "https://proxyking.xyz/",
+            "type": "cors",
+            "working": false,
+            "priority": 7
+        }
+    ],
+    "backupProxies": [
+        "https://api.allorigins.win/raw?url=",
+        "https://corsproxy.io/?",
+        "https://api.codetabs.com/v1/proxy?quest="
+    ]
+}
